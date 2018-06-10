@@ -1,16 +1,59 @@
 # Projekt Albatross
 
-### Mål
 Vi har fått uppdraget att ta fram en webbplats som presenterar och säljer in **Team Chaos** för framtida arbetsgivare (praktikplatser).
 
-### Acceptanskriterier (Önskemål)
-Dvs vad förväntar sig beställaren ska finnas och fungera.
-#### Icke-funktionella önskemål
-- Webbplatsen ska fungera på alla typer av skärmar, både mobiltelefon, platta och desktop
-- Webbplatsen ska ladda snabbt, inga långa väntetider
-#### Funktionell önskemål
-- Som en arbetsgivare som letar praktikanter vill jag kunna bilda mig en uppfattning av kompetens, mognad och förmåga.
-- Som en arbetsgivare vill jag kunna "lära känna" den enskilda individen, så att jag ser om hen kan passa in på mitt företag.
-- Som en arbetsgivare vill jag enkelt kunna kontakta ansvarig för T4, för att boka in möte och diskutera praktikplats.
-- Som ansvarig för T4, vill jag kunna erbjuda arbetsgivare en möjlighet att "möta och lära känna" årets deltagare digitalt.
-- Som ansvarig för T4, vill jag förmedla känslan av **Team Chaos** och få fram deras starka sidor.
+### Min roll i Projekt Albatross
+
+ Jag skapade den största delen av sidans design, men arbeta även med ramverket HUGO och såg till så allt fungerade som det ska.
+ 
+ Mina ansvar och arbetsuppgifter:
+ 
+ * Responsiv, tillgänglig för alla enheter
+ * Ha en bra användarupplevelse
+ * Tillgänglig och snygg för alla webbläsare
+ * En bra, lätt och simpel navigering.
+ * Kontinuerligt förbättra, rensa eller förenkla kod.
+ * Anpassa bilder till designen
+ * Skapa formulärets och dess funktion via tredjepartstjänst.
+ * Skapa one-pager med nödvändiga sektioner.
+ * Designa Header efter planering och dess skiss
+ * Skapa skisser och wireframes
+ * Netlify deployment
+ * Delvis uppbyggnad med HUGO
+
+
+ 
+ ### Språk och bibliotek
+ 
+ Dessa språk och bibliotek har jag använt mig av.
+ 
+Språk  |
+------------- |
+HTML5  |
+CSS3  |
+JavaScript  |
+
+Bibliotek & tekniker|
+------------- |
+[HUGO](http://knockoutjs.com/)  |
+[Bootstrap 4](https://getbootstrap.com/)  |
+[NPM](https://www.npmjs.com/)  |
+
+Övriga verktyg & Metodik |
+------------- |
+Adobe Photoshop  |
+[Lucidchart](https://www.lucidchart.com/) (Wireframes)  |
+[Netlify](https://netlify.com/) (Deployment) |
+[Slack](https://www.slack.com/) (Kommunikationskanal) |
+Visual Studio 2017 (Textredigerare) |
+Scrum (Ramverk för projektarbeten) |
+
+### Tillgänglighet
+
+Sidan finns tillgänglig på: https://team-chaos.netlify.com/
+
+
+### Övriga noteringar
+
+Projektet blev klart Oktober 2017, och jag har lärt mig mycket mer inom frontend och resten av alla dess tekniker sedan dess. 
+ 
