@@ -1,6 +1,6 @@
 # Projekt Albatross
 
-Vi har fått uppdraget att ta fram en webbplats som presenterar och säljer in **Team Chaos** för framtida arbetsgivare (praktikplatser).
+Vi har fått uppdraget att ta fram en webbplats som presenterar och säljer in **Team Chaos** för framtida arbetsgivare (praktikplatser). Fokuset i detta projekt var att förstå och lära sig att använda 
 
 ### Min roll i Projekt Albatross
 
@@ -46,6 +46,7 @@ Adobe Photoshop  |
 [Netlify](https://netlify.com/) (Deployment) |
 [Slack](https://www.slack.com/) (Kommunikationskanal) |
 Visual Studio 2017 (Textredigerare) |
+Github |
 Scrum (Ramverk för projektarbeten) |
 
 ### Tillgänglighet
