@@ -1,0 +1,9 @@
+baseURL = "https://model-christian-66370.netlify.com"
+languageCode = "en-us"
+title = "Team Chaos"
+theme = "chaos-theme"
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+

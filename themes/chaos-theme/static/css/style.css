@@ -1,0 +1,460 @@
+
+body{
+    font-family: 'Roboto Slab';
+    position: relative;
+    
+}
+    
+a {
+    font-size: 20px;
+    color:black;
+    font-family: 'Open Sans', 'Arial';
+}
+
+a:hover {
+    color:#BF3D41;
+    text-decoration: none;
+}
+ 
+
+h1,h2,h3,h4,h5,h6,#mainJumbo,#footer,.nav-link{
+    font-family: 'Open Sans', 'Arial';
+}
+    
+#footer{
+    background-color: #3F403F;
+    color: white;
+    padding: 20px;
+    border-radius: 0;
+}
+
+/*About Page*/
+.about-page{
+padding: 30px;
+    font-size: 16px;
+
+}
+
+.about-page img{
+    width: 150px;
+}
+
+.about-page td{
+padding: 0 20px;
+}
+
+.about-page p{
+    width: 100%;
+                
+}
+    
+/*Sections*/
+    
+.header-section {
+    font-size: 60px;
+}
+
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-content {
+    padding: 50px 0;
+}
+
+/*Contact*/
+
+.form-control {
+    height: 50px;
+    border-radius: 0;
+ 
+}
+
+.contact-blocks {
+
+    background-color:#F7F7F7;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 95px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 150px;
+}
+
+.contact-blocks img{
+height: 100%; float: left;
+}
+
+
+/*Team*/
+
+#team{
+    text-align: center;
+    position: relative;
+    background-color: #F7F7F7;
+}
+    
+#team p{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+    
+#team img{
+    width: 200px;
+    background-color:#F7F7F7;
+    padding: 10px;
+}
+
+#team i {
+    padding: 5px;
+}
+    
+    
+/*Cover*/
+    
+#mainJumbo {
+    background-image: url(../images/header-grey.jpg); 
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+.cover-heading{
+    font-size: 500%;
+    margin: 50px;
+    margin-bottom: 60px;
+}
+
+
+.cover-hr {
+    max-width: 200px;
+    border-width: 3px;
+    border-color: #BF3D41;
+}
+    
+/*About*/
+
+#image_home{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#about {
+    font-size: 20px;
+}
+
+    
+/*Navbar*/
+#navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #3F403F;
+    color: #BF3D41;
+    font-size: x-large;
+    padding: 10px 15px;
+    z-index: 1;
+}
+    
+img[src$="centerme"]{
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+    
+.nav-link{
+    color:white !important;
+    margin-left : 20px;
+    margin-right : 20px;
+    font-size: large;
+}
+    
+.nav-link:hover{
+    color: #BF3D41 !important;
+}
+    
+.brand-name {
+    color: #BF3D41 !important;
+    font-size: x-large;
+}
+    
+.collapse-menu {
+    outline-color: transparent !important;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+    
+.collapse-menu:hover{
+    color: #BF3D41;
+}
+
+
+    
+/*Button*/
+.btn {
+    border-radius: 0;
+    background-color: #BF3D41;
+    width: 200px;
+    border: none;     
+}
+    
+.btn:hover {
+    background-color: #FF5157;
+}
+    
+
+    
+@media screen and (min-width: 1920px) {
+    body {
+        font-size: 24px;
+    }
+    
+    #navbar{
+        font-size: x-large;
+        padding: 10px 10%;
+    }
+    
+    .brand-name {
+        font-size: xx-large;
+    }
+
+    
+    .btn {
+        width: 200px;
+        font-size: 24px;
+    
+    } 
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    #mainJumbo {
+        height: 500px;
+        padding: 130px 0;
+        font-size: 25px;
+    }
+    header h1, p {
+        font-size: 20px;
+    }
+
+    .cover-heading{
+        font-size: 250%;
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contact-blocks {
+        margin-bottom: 0;
+        margin-top: 20px;
+
+    }
+
+    header h1, p{
+        font-size: 20px;
+    }
+
+
+    .header-section {
+        font-size: 40px;
+    }
+
+    .section-content {
+
+            padding: 0 30px;   
+
+    }
+
+    section {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    #team img{
+        width: 140px;
+        background-color:#F7F7F7;
+        padding: 10px;
+    }
+
+    #about .btn {
+        margin-top: 20px;   
+    }
+
+    
+
+}
+
+    
+    
+@media screen and (max-width: 768px) {
+    .side-collapse-container{
+        width:100%;
+        position:relative;
+        left:0;
+        transition:left .4s;
+        }
+        .side-collapse-container.out{
+            left:200px;
+        }
+        .side-collapse {
+            top:50px;
+            bottom:0;
+            left:0;
+            width:200px;
+            position:fixed;
+            overflow:hidden;
+            transition:width .4s;
+            }
+        .side-collapse.in {
+            width:0;
+        }
+
+        #mainJumbo {
+           
+            padding: 140px 0;
+            
+        }
+
+        .nav-link{
+            font-size: 40px;
+        }
+
+        .collapse-menu{
+            font-size: 40px;
+        }
+
+        .btn {
+            font-size: 25px;
+        }
+
+        .about-page table img{
+            width: 100px;
+        }
+
+        .about-page{
+            padding: 30px 0;
+            font-size: 14px;
+            
+        }
+
+
+        .about-page td{
+            padding:10px
+
+            
+        }
+
+        .collapse-menu {
+            margin-top: 5px;
+        }
+    
+}
+
+@media screen and (max-width: 575px) {
+    .cover-hr {
+        width: 85px;;
+    }
+
+    .section-content {
+        padding: 0 30px;   
+    }
+
+    .header-section {
+        font-size: 30px;
+    }
+    .contact-blocks br, .mail {
+     
+        display: none;
+     
+    }
+
+    .contact-blocks h5, h4 {
+        
+        font-size: 16px;
+       }
+
+
+    #team p{
+
+        font-size: 14px;
+    }
+
+    #team a{
+        
+        font-size: 14px;
+    }
+
+    #mainJumbo {
+        height: 400px;
+        padding: 115px 0;
+        font-size: 25px;
+    }
+    header h1, p {
+        font-size: 15px;
+    }
+
+    .cover-heading{
+        font-size: 200%;
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+
+    .menu{
+        display: none;
+    }
+        
+       
+}
+
+@media screen and (max-width: 411px) { 
+
+    .contact-blocks {
+        height: 100px;
+
+    }
+
+    .contact-info {
+        
+        margin-left: 90px;
+
+
+    }
+    
+    .nav-link{
+        font-size: 30px;
+    }
+
+    .collapse-menu{
+        font-size: 30px;
+    }
+ 
+}
+
+@media screen and (max-width: 350px) {
+
+    #mainJumbo {
+        padding: 100px 0;
+        
+    }
+} 
+
+
+    

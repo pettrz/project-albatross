@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<div class="container-fluid">
+  <h1>{{ .Title }}</h1>
+
+  <div class="card card-default" id="card_contacts">
+    <ul class="list-group pull-down" id="contact-list">
+    {{range .Pages}}
+    <li class="list-group-item">
+        <div class="row w-100">
+            <div class="col-12 col-sm-6 col-md-3 px-0">
+    {{ .Content }}
+            </div>
+        </div>
+    </li>
+    {{end}}
+    </ul>
+</div>
+</div>
+<br>
+{{ partial "footer.html" . }}
+
+

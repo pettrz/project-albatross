@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<div class="jumbotron text-center" id="mainJumbo">
+  <h1 class="cover-heading"><strong>{{ .Title }}</strong></h1>
+  <hr class="cover-hr">
+  <br>
+  {{.Description}}
+  
+</div>
+<div class="container">
+  <div class="{{ .Params.class }}">
+    {{ .Content }}
+  </div>
+</div>
+{{ partial "footer.html" . }}

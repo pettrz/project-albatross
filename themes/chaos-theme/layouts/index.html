@@ -1,0 +1,88 @@
+{{ partial "header.html" . }}
+
+    <header class="jumbotron text-center" id="mainJumbo">
+        <h1>Välkommen till</h1>
+        <h1 class="cover-heading"><strong>{{ .Site.Title }}</strong></h1>
+         <hr class="cover-hr">
+        <p><em>"Can´t Handle All Our Skills"</em></p>               
+        <a href="#about" class="btn btn-primary"> Läs mer </a>
+    </header>
+  
+    
+    
+        <section id="about">
+            
+            
+            <h2 class="header-section">Om Team Chaos</h2>
+            <hr class="cover-hr">
+            <div class="container section-content">
+                <div class="row">
+                        <div class="col-lg-12">
+                                <p>Team Chaos består utav fem juniorer som alla valt att gå T4-utbildningen 
+                                        vid Östra Gymnasiet. Team Chaos står för Team “Can't handle all our skills”, 
+                                        och består utav tre killar och två tjejer. Medlemmarna inom Team Chaos kommer 
+                                        från olika tidigare gymnasiala utbildningar och har olika kunskaper och erfarenheter 
+                                        inom programmering.
+                                </p>
+
+                                <img src="../images/group-photo.jpg" alt="Team Chaos" id="image_home" >
+                                
+                        </div>
+                </div>
+
+            </div>
+
+            <a href="/about" class="btn btn-primary"> Läs mer </a>
+            
+    </section>
+
+    <section id="team">
+            
+                
+            <h2 class="header-section">Team Chaos</h2>
+            <hr class="cover-hr">
+            <div class="container section-content">
+            
+                 <div class="row" >        
+                    
+                    {{.Content}}
+                    
+                 </div>
+        
+            </div>
+    </section>
+
+                
+        
+    <section id="contact">
+
+
+            <h2 class="header-section">Kontakt</h2>
+            <hr class="cover-hr">
+
+            <div class="container section-content">
+                    <div class="row">
+                            <div class="col-lg-12">
+                              
+                                    {{partial "form.html"}}
+                              
+                              
+                            </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+        {{partial "scripts.html"}}
+        
+
+
+
+{{partial "footer.html" . }}
+
+
+
+
+
