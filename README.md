@@ -35,7 +35,7 @@ JavaScript  |
 
 Bibliotek & tekniker|
 ------------- |
-[HUGO](http://knockoutjs.com/)  |
+[HUGO](https://gohugo.io/)  |
 [Bootstrap 4](https://getbootstrap.com/)  |
 [NPM](https://www.npmjs.com/)  |
 
